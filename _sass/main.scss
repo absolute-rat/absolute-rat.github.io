@@ -286,12 +286,14 @@ table {
 }
 
 .main {
-  margin: 3rem 0 3rem 0;
+  margin: 3rem auto;
   width: 95%;
   max-width: 1200px;
 	
   section {
     @include md-margin;
+	margin-left: 0;
+	margin-right: 0;
   }
 
   article {
