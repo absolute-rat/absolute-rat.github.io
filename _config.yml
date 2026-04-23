@@ -8,7 +8,13 @@ subtitle: 'rats and rat accessories'
 description: 'RATS AT LOW LOW PRICES'
 
 # build
+markdown: kramdown
 highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 exclude: ['LICENSE', 'README.md']
 
 # theme
