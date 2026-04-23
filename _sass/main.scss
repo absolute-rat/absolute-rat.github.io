@@ -52,9 +52,14 @@ code.highlighter-rouge {
   background-color: #181818;
   margin: 0 0 2rem 0;
   overflow-x: auto;
+  display: block;
+  width: 100%;
 
   pre.highlight {
     @include padding;
+	margin: 0;
+    white-space: pre; 
+    word-wrap: normal;
   }
   
   .highlight {
