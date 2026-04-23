@@ -11,6 +11,6 @@
        <p>{{ post.excerpt | strip_newline | strip_html }}</p>
     {% endif %}
     {% if post.content contains '<!--more-->' or post.excerpt != post.content %}
-    <a href="{{ post.url | absolute_url }}">Continue Reading</a>
+    <a href="{{ post.url | absolute_url }}">read...</a>
     {% endif %}
 </article>
