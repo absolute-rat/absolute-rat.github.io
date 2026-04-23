@@ -54,10 +54,12 @@ code.highlighter-rouge {
   overflow-x: auto;
   display: block;
   width: 100%;
+  max-width: 100%
 
   pre.highlight {
     @include padding;
 	margin: 0;
+	overflow: auto
     white-space: pre; 
     word-wrap: normal;
   }
