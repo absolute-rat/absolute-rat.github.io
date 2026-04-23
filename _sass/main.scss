@@ -286,7 +286,9 @@ table {
 
 .main {
   margin: 3rem 0 3rem 0;
-
+  width: 95%;
+  max-width: 1200px;
+	
   section {
     @include md-margin;
   }
