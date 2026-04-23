@@ -381,3 +381,10 @@ table {
   max-width: 100%;
   width: auto;
 }
+
+#wrapper, #content, .main {
+  width: 95% !important;
+  max-width: 1400px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
