@@ -2,6 +2,6 @@
 layout: page
 title: "About RAT"
 ---
-# RAT
+# 🐀
 
-This is my private repo, for my various red team projects
+![WHAT DID YOU EXPECT](/assets/images/pages/about/rat.gif)
